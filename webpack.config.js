@@ -4,7 +4,9 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, './dist/altius-nx'),
+    // path: join(__dirname, './dist/altius-nx'),
+    path: join(__dirname, './public'),
+
   },
   devServer: {
     port: 4200,
